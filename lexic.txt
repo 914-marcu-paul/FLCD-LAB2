@@ -1,0 +1,17 @@
+The language's alphabet contains the following:
+	- Uppercase and lowercase English letters (A-Za-z);
+	- Digits (0-9);
+
+The language's special symbols are as follows:
+	- Operators: "+" "++" "+++" "-" "%%" "^^" ":" "=" "==" "<=" ">=" "<<" ">>" "!!" "AND" "OR";
+	- Separators: "[]" "()" "<>" "{}" "," ";" " ";
+	- Reserved terms: "integer" "boolean" "char" "string" "array" "new" "runtimeInput" "runtimeOutput" "cond" "then" "elsecond" "else" "send" "cycleif" "traverse";
+
+The language's identifiers are structured as follows:
+	- Having a letter (A-Za-z) as the leading character, they can contain either letters or digits (0-9) afterwards.
+		- Descriptive regex: ^[A-Za-z]+[0-9]*$
+
+The language's constants are structured as follows:
+	- Integers: number := digit;
+	- Characters: character := 'letter' | 'digit';
+	- Strings: constchar := "(letter | digit)+";
