@@ -22,3 +22,5 @@ CYCLESTATEMENT ::== "cycleif" "(" COND ")" "{" STATEMENT "}"
 TRAVERSESTATEMENT ::== "traverse" "(" "identifier" ":" "identifier" ")" "{" STATEMENT "}"
 COND ::== EXPRESSION RELATION EXPRESSION
 RELATION ::== "==" "<=" ">=" "<<" ">>" "!!" "AND" "OR"
+
+//very clear and well structured
